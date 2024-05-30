@@ -6,8 +6,8 @@ pipeline {
             steps {
                 echo 'Building...'
                 // Executing an HTTP GET request using curl
-                sh '''
-                  C:/Users/TobiasShapton/OneDrive\\ -\\ Curiosity\\ Software\\ Ireland\\ Ltd/Documents/TSM\\ Work/Fadel/testexecute.sh
+                bat '''
+                  C:\\Users\\TobiasShapton\\OneDrive - Curiosity Software Ireland Ltd\\Documents\\TSM Work\\Fadel\\testexecute.sh
                 '''
                 // Add your build steps here, e.g., compile the code, run build tools
                 // sh 'make' (if you're using make)
