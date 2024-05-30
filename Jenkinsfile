@@ -5,9 +5,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                // Executing an HTTP GET request using curl
+                // Executing an HTTP POST request using curl
                 bat '''
-                  C:\\Fadel\\testexecute.bat
+                  C:\\Users\\TobiasShapton\\OneDrive - Curiosity Software Ireland Ltd\\Documents\\TSM Work\\Fadel\\testexecute.sh
                 '''
                 // Add your build steps here, e.g., compile the code, run build tools
                 // sh 'make' (if you're using make)
