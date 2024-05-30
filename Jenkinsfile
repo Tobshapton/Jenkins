@@ -7,7 +7,7 @@ pipeline {
                 echo 'Building...'
                 // Executing an HTTP GET request using curl
                 bat '''
-                  C:\\Users\\TobiasShapton\\OneDrive - Curiosity Software Ireland Ltd\\Documents\\TSM Work\\Fadel\\testexecute.sh
+                  C:\\Users\\TobiasShapton\\OneDrive - Curiosity Software Ireland Ltd\\Documents\\TSM Work\\Fadel\\testexecute.bat
                 '''
                 // Add your build steps here, e.g., compile the code, run build tools
                 // sh 'make' (if you're using make)
