@@ -6,7 +6,9 @@ pipeline {
             steps {
                 echo 'Building...'
                 // Executing an HTTP GET request using curl
-                sh 'curl -X GET "https://partner.testinsights.io/api/apikey/1R0_mB8hMfPNex860y34u1ftR/project/release/published-test-suite/45/execute"'
+                sh '''
+                  curl -X GET "https://partner.testinsights.io/api/apikey/1R0_mB8hMfPNex860y34u1ftR/project/release/published-test-suite/45/execute"
+                '''
                 // Add your build steps here, e.g., compile the code, run build tools
                 // sh 'make' (if you're using make)
                 // sh 'mvn clean install' (if you're using Maven)
