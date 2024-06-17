@@ -1,1 +1,1 @@
-curl -k -X POST "https://partner.testinsights.io/api/apikey/1R0_mB8hMfPNex860y34u1ftR/project/release/published-test-suite/45/execute"
+curl -k -X POST "http://partner.testinsights.io/api/apikey/1R0_mB8hMfPNex860y34u1ftR/project/release/published-test-suite/45/execute"
