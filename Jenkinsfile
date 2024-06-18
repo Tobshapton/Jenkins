@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
+                echo 'Executing shell script file'
                 // Executing an HTTP POST request using curl
                 sh '''
                   C:\\Users\\TobiasShapton\\OneDrive\ -\ Curiosity\ Software\ Ireland\ Ltd\\Documents\\TSM\ Work\\Fadel\\testexecute.sh
